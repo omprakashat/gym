@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Thambi+2:wght@600&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <title>Gym</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+         background: url(img.webp); 
+         background-size: cover;
+         background-attachment: fixed;
+        color: white;
+        height: 46222px;
+         font-family: 'Baloo 2', cursive;
+        
+    }
+.left {
+        display: inline-block;
+        /* border: 2px solid red;  */
+        position: absolute;
+        top: 15px;
+        left: 40px;
+    }
+
+    .left img {
+        width: 100px;
+        display: inline-block;
+        filter: invert(100%);
+    }
+
+    .mid {
+        /* border: 2px solid rgb(35, 210241); */
+        /* border-radius: 100px; */
+        display: block;
+        margin: 10px auto;
+        width: 53%;
+    }
+
+    .right {
+        display: inline-block;
+        border: yellow;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 34px 24px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(233, 99, 122);
+    }
+
+    .btn {
+        margin: 0px, 10px;
+        padding: 0px, 15px;
+        background-color: black;
+        color: white;
+        border-color: grey;
+        border-radius: 10px;
+        cursor: pointer;
+        /* font-family: 'Baloo Thambi 2', cursive; */
+        font-family: 'Baloo 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: hotpink;
+    }
+    .container{
+        border: 2px solid white;
+        border-radius: 30px;
+        margin-left:90px;
+        margin-top: 100px;
+        padding-top: 40px;
+        padding: 35px;
+        padding-bottom: 80px;
+        width: 20%;
+        
+    }
+    .container h1{
+        text-align: center;
+    }
+    .form-group input{
+        display: block;
+        width: 180px;
+        border: 2px solid rgb(194, 245, 194);
+        border-radius: 10px;
+        font-family: 'Baloo 2', cursive;
+        margin:10px auto
+    }
+    .container button{
+        display: block;
+        width: 110px;
+     margin:auto
+    }
+</style>
+
+<body>
+    <!-- <h4>do it now</h4> -->
+    <div class="left">
+        <img src="logo.jpg" alt="">
+        <!-- left -->
+    </div>
+    <div class="mid">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email us</button>
+    </div>
+    <div class="container">
+        <h1>Fill the form</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Name">
+            <input type="text" placeholder="Enter your Email">
+            <input type="text" placeholder="Enter your Phone No">
+            <input type="text" placeholder="Enter your Address">
+        </div>
+        <button class="btn">Submit Now</button>
+    </div>
+</body>
+
+</html>
